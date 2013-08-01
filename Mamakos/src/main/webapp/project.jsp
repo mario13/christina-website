@@ -7,6 +7,17 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+  <div id="myGallery">
+          <ul id="gallery">
+            <li><img src="images/projects/waters-wet/waters1.jpg"/></li>
+            <li><img src="images/projects/waters-wet/waters2.jpg"/></li>
+            <li><img src="images/projects/waters-wet/waters3.jpg"/></li>
+            <li><img src="images/projects/waters-wet/waters4.jpg"/></li>
+            <li><img src="images/projects/waters-wet/waters5.jpg"/></li>
+            <li><img src="images/projects/waters-wet/waters6.jpg"/></li>
+            <li><img src="images/projects/waters-wet/waters7.jpg"/></li>
+            <li><img src="images/projects/waters-wet/waters8.jpg"/></li>
+          </ul>
+        </div>
 </body>
 </html>

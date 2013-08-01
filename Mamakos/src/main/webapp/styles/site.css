@@ -37,13 +37,18 @@ html {
     height: 100%;
 }
 body {
-    background: none repeat scroll 0 0 #000000;
-    color: #FFFFFF;
+    background: none repeat scroll 0 0;
+    color: black;
     font-family: 'CartoGothicProLight',Arial,sans-serif;
     font-size: 12px;
     height: 100%;
     line-height: 19px;
     width: 100%;
+}
+
+body.whitebg
+{
+  color: black; !important;
 }
 body.live {
     overflow: hidden;
@@ -156,14 +161,7 @@ h2 strong {
     width: 100%;
     z-index: 405;
 }
-#main_content, #work_content {
-    display: block;
-    height: auto;
-    margin-bottom: 55550px !important;
-    position: absolute;
-    width: 100%;
-    z-index: 404;
-}
+
 #main_content {
     color: #000000;
     font-family: 'CartoGothicProBook',Arial,sans-serif;
@@ -180,9 +178,25 @@ h2 strong {
     font-weight: normal;
 }
 #work_content {
+    display: block;
+    position: absolute;
+    width: 100%;
+    z-index: 404;
     background-color: transparent;
     color: #FFFFFF;
-    height: 100%;
+    bottom: 30px;
+    top: 30px;
+}
+
+#work_content.whitebg {
+  color: #000000; !important;
+}
+
+.middletext {
+  height: 100%;
+  width: 100%;
+  min-height: 240px;
+  min-width: 600px;
 }
 .separator {
     height: 1px;
@@ -209,6 +223,14 @@ h2 strong {
   font-style: oblique;
 }
 
+page_title {
+  color: #FFFFFF;
+  margin-left: 2px;
+  margin-top: 5px;
+  font-style: oblique;
+  color: #e7c313;
+}
+
 
 #topnav {
   width: 100%;
@@ -216,8 +238,12 @@ h2 strong {
   position: absolute;
   top: 0px;
   left: 0px;
-  background: rgba(152, 152, 153, 0.7);
+  background: rgba(152, 152, 153, 0.5);
   z-index:407;
+}
+
+#topnav.whitebg{
+  background: rgba(152, 152, 153, 1); !important;
 }
 
 #mnav {
@@ -254,12 +280,16 @@ h2 strong {
   height: 30px;
   position: absolute;
   bottom: 0;
-  background: rgba(152, 152, 153, 0.3);
+  background: rgba(152, 152, 153, 0.5);
   display: block;
   margin: 0 auto;
   text-align: center;
   text-shadow: 1px 1px 0.5px #030303;
   z-index:407;
+}
+
+#botnav.whitebg{
+  background: rgba(152, 152, 153, 1); !important;
 }
 #snav {
     bottom: 20px;
