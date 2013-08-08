@@ -156,8 +156,8 @@
       </div><!-- end of work_content -->
       <div id="botnav" class="whitebg">
         <ul class="nav">
-          <li><a class="a" href="/" title="home">home</a></li>
-          <li><a href="/" class="a" title="projects">projects</a></li>
+          <li><a class="a" href="index.html" title="home">home</a></li>
+          <li><a href="projects.jsp" class="a" title="projects">projects</a></li>
           <li><a href="/" class="active" title="biography">biography</a></li>
           <li><a href="/" class="a" title="news">news</a></li>
           <li><a href="/" class="a" title="contact">contact</a></li>

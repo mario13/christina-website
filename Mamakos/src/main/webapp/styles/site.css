@@ -414,6 +414,28 @@ page_title {
 #main_content .bio p {
     margin-bottom: 19px;
 }
+
+#projects
+{
+  position: absolute;
+  left:50%;
+  top:50%;
+  margin-left: -322px; 
+  margin-top: -107px;
+}
+
+.project
+{
+  width: 150px;
+  height: 215px;
+}
+
+.project img
+{
+  width: 150px;
+  height: 200px;
+}
+
 #scrollTop {
     background: url("p/arrow_top.png") no-repeat scroll left top transparent;
     bottom: 8px;
