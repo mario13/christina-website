@@ -48,11 +48,12 @@
 <!--             <li><img src="images/projects/waters-wet/waters7.jpg" title="1" data-description="Test3"/></li> -->
 <!--             <li><img src="images/projects/waters-wet/waters8.jpg" title="1" data-description="Test3"/></li> -->
             <li><img src="images/projects/girls/work/MAMAKOS.C_1.jpg" title="Cora 2010" data-description="Oil on Canvas &lt;br/&gt; 100 x 200 cm"/></li>
-            <li><img src="images/projects/girls/work/MAMAKOS.C_2.jpg" title="1" data-description="Test1"/></li>
-            <li><img src="images/projects/girls/work/MAMAKOS.C_3.jpg" title="1" data-description="Test1"/></li>
-            <li><img src="images/projects/girls/work/MAMAKOS.C_4.jpg" title="1" data-description="Test1"/></li>
-            <li><img src="images/projects/girls/work/MAMAKOS.C_5.jpg" title="1" data-description="Test1"/></li>
-            <li><img src="images/projects/girls/work/MAMAKOS.C_6.jpg" title="1" data-description="Test1"/></li>
+            <li><img src="images/projects/girls/work/MAMAKOS.C_2.jpg" title="Heidi 2010" data-description="Oil on Canvas &lt;br/&gt; 100 x 200 cm"/></li>
+            <li><img src="images/projects/girls/work/MAMAKOS.C_3.jpg" title="Libby 2010" data-description="Oil on Canvas &lt;br/&gt; 100 x 200 cm"/></li>
+            <li><img src="images/projects/girls/work/MAMAKOS.C_4.jpg" title="Tracy 2010" data-description="Oil on Canvas &lt;br/&gt; 100 x 200 cm"/></li>
+            <li><img src="images/projects/girls/work/MAMAKOS.C_5.jpg" title="Jane 2010" data-description="Oil on Canvas &lt;br/&gt; 100 x 200 cm"/></li>
+            <li><img src="images/projects/girls/work/MAMAKOS.C_6.jpg" title="Nell 2010" data-description="Oil on Canvas &lt;br/&gt; 100 x 200 cm"/></li>
+            <li><img src="images/projects/girls/work/MAMAKOS.C_7.jpg" title="Veronica 2010" data-description="Oil on Canvas &lt;br/&gt; 100 x 200 cm"/></li>
           </ul>
         </div>
       </div>
