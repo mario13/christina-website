@@ -141,15 +141,31 @@ h2 strong {
     z-index: 400;
 }
 
+#contact{
+  top:50%;
+  left:50%;
+  position: absolute;
+  margin-top: -20px;
+  text-align: center;
+  margin-left: -60px;
+}
+
+a[href^="mailto"]{
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 120%;
+}
+
 #myGallery
 {
   z-index:410;
   top:50%;
   left:50%;
   position: absolute;
-  margin-top: -200px;
+  margin-top: -250px;
   text-align: center;
-  margin-left: -400px;
+  margin-left: -150px;
 }
 #main_content_wrapper {
     background: none repeat scroll 0 0 #FFFFFF;
@@ -218,15 +234,14 @@ h2 strong {
 
 #title {
   color: #FFFFFF;
-  margin-left: 10px;
-  margin-top: 5px;
+ /* margin-left: 10px;
+  margin-top: 5px;*/
   font-style: oblique;
+  float: left;
 }
 
 page_title {
   color: #FFFFFF;
-  margin-left: 2px;
-  margin-top: 5px;
   font-style: oblique;
   color: #e7c313;
 }
@@ -247,11 +262,23 @@ page_title {
   left: 0px;
   background: rgba(152, 152, 153, 0.5);
   z-index:407;
+  padding-left: 2px;
+  padding-top: 5px;
+  text-align: center;
+  text-shadow: 1px 1px 0.5px #030303;
 }
 
 #topnav.whitebg{
   background: rgba(152, 152, 153, 1); !important;
 }
+
+#pagetitle{
+  color: #e7c313;
+  margin-left: 6px;
+  font-style: oblique;
+  float: left;
+}
+
 
 #mnav {
     font-family: 'CartoGothicProBook',Arial,sans-serif;
@@ -280,6 +307,54 @@ page_title {
 #mnav.dark a:hover, #mnav.dark a.active {
     color: #000000;
     text-shadow: none;
+}
+
+.projectnav{
+	float:right;
+	margin-right: 10px;
+}
+
+.projectnav a, .projectnav{
+    color: #FFFFFF;
+}
+.projectnav a:hover, .projectnav a.active {
+    color: #e7c313;
+}
+.projectnav ul {
+    text-align: center;
+    list-style-type: none;
+    margin-top: 5px;
+    width: 100%;
+}
+.projectnav li {
+    display: inline;
+    width: 30px;
+}
+.projectnav li a#ppstop_rem {
+    display: none;
+    text-align: left;
+}
+.projectnav li + li {
+    margin-left: 35px;
+}
+
+.projectnav li:last-child
+{
+	margin-right: 15px;
+}
+
+.projectnav li.prevAndNext {
+    width: 42px;
+}
+.projectnav li.prevAndNext a#prevWork, #snav li.prevAndNext a#nextWork {
+    color: #8C8C8C;
+    display: inline-block;
+    padding-top: 1px;
+    position: relative;
+    width: 16px;
+}
+.projectnav li.prevAndNext a#prevWork:hover, #snav li.prevAndNext a#nextWork:hover {
+    color: #C4C4C4;
 }
 
 #botnav {
@@ -417,7 +492,7 @@ page_title {
 
 #projects
 {
-  position: absolute;
+  position: absolute !important;
   left:50%;
   top:50%;
   margin-left: -322px; 

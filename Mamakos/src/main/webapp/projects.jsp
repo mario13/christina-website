@@ -24,7 +24,7 @@
     <div id="container">
       <div id="topnav" class="whitebg">
         <div id="title">CHRISTINA MAMAKOS</div>
-        <!--         <div id="page_title">BIOGRAPHY</div> -->
+        <div id="pagetitle">PROJECTS</div>
       </div>
       <div id="work_content" class="whitebg">
         <div id="projects">
@@ -47,8 +47,8 @@
           <li><a class="a" href="index.html" title="home">home</a></li>
           <li><a href="" class="active" title="projects">projects</a></li>
           <li><a href="biography.jsp" class="a" title="biography">biography</a></li>
-          <li><a href="/" class="a" title="news">news</a></li>
-          <li><a href="/" class="a" title="contact">contact</a></li>
+          <li><a href="" class="a" title="news">news</a></li>
+          <li><a href="contact.jsp" class="a" title="contact">contact</a></li>
         </ul>
       </div>
     </div>
@@ -62,7 +62,7 @@ $(document).ready(function()
   $('#projects').layout(
       {
         type: 'grid',
-        columns: 4,
+        columns: 2,
         hgap: 15,
         vgap: 15
       }

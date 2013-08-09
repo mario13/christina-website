@@ -15,7 +15,8 @@
  <script type="text/javascript" src="scripts/galleryview/js/jquery.timers-1.2.js"></script>
  <script type="text/javascript" src="scripts/galleryview/js/jquery.easing.1.3.js"></script>
  <script type="text/javascript" src="scripts/galleryview/js/jquery.galleryview-3.0-dev.js"></script>
- <link type="text/css" rel="stylesheet" href="scripts/galleryview/css/jquery.galleryview-3.0-dev.css" />
+<!--  <link type="text/css" rel="stylesheet" href="scripts/galleryview/css/jquery.galleryview-3.0-dev.css" /> -->
+<link type="text/css" rel="stylesheet" href="scripts/galleryview/css/NewFile.css" />
  
 </head>
 <body class="live">
@@ -27,28 +28,41 @@
     <div id="container">
       <div id="topnav">
         <div id="title">CHRISTINA MAMAKOS</div>
+        <div id="pagetitle">GIRLS</div>
+        <ul class="nav projectnav">
+          <li><a class="a" href="installation.jsp" title="installation">installation</a></li>
+          <li><a href="" class="active" title="work">work</a></li>
+          <li><a href="" class="a" title="video">video</a></li>
+          <li><a href="" class="a" title="text">text</a></li>
+        </ul>
       </div>
       <div id="work_content">
         <div id="myGallery">
           <ul id="gallery">
-            <li><img src="images/projects/waters-wet/waters1.jpg"/></li>
-            <li><img src="images/projects/waters-wet/waters2.jpg"/></li>
-            <li><img src="images/projects/waters-wet/waters3.jpg"/></li>
-            <li><img src="images/projects/waters-wet/waters4.jpg"/></li>
-            <li><img src="images/projects/waters-wet/waters5.jpg"/></li>
-            <li><img src="images/projects/waters-wet/waters6.jpg"/></li>
-            <li><img src="images/projects/waters-wet/waters7.jpg"/></li>
-            <li><img src="images/projects/waters-wet/waters8.jpg"/></li>
+<!--             <li><img src="images/projects/waters-wet/waters1.jpg" title="1" data-description="Test1"/></li> -->
+<!--             <li><img src="images/projects/waters-wet/waters2.jpg" title="1" data-description="Test2"/></li> -->
+<!--             <li><img src="images/projects/waters-wet/waters3.jpg" title="1" data-description="Test3"/></li> -->
+<!--             <li><img src="images/projects/waters-wet/waters4.jpg" title="1" data-description="Test3"/></li> -->
+<!--             <li><img src="images/projects/waters-wet/waters5.jpg" title="1" data-description="Test3"/></li> -->
+<!--             <li><img src="images/projects/waters-wet/waters6.jpg" title="1" data-description="Test3"/></li> -->
+<!--             <li><img src="images/projects/waters-wet/waters7.jpg" title="1" data-description="Test3"/></li> -->
+<!--             <li><img src="images/projects/waters-wet/waters8.jpg" title="1" data-description="Test3"/></li> -->
+            <li><img src="images/projects/girls/work/MAMAKOS.C_1.jpg" title="Cora 2010" data-description="Oil on Canvas &lt;br/&gt; 100 x 200 cm"/></li>
+            <li><img src="images/projects/girls/work/MAMAKOS.C_2.jpg" title="1" data-description="Test1"/></li>
+            <li><img src="images/projects/girls/work/MAMAKOS.C_3.jpg" title="1" data-description="Test1"/></li>
+            <li><img src="images/projects/girls/work/MAMAKOS.C_4.jpg" title="1" data-description="Test1"/></li>
+            <li><img src="images/projects/girls/work/MAMAKOS.C_5.jpg" title="1" data-description="Test1"/></li>
+            <li><img src="images/projects/girls/work/MAMAKOS.C_6.jpg" title="1" data-description="Test1"/></li>
           </ul>
         </div>
       </div>
       <div id="botnav">
         <ul class="nav">
-          <li><a class="a" href="" title="home">home</a></li>
+          <li><a class="a" href="index.html" title="home">home</a></li>
           <li><a href="projects.jsp" class="active" title="projects">projects</a></li>
           <li><a href="biography.jsp" class="a" title="biography">biography</a></li>
           <li><a href="/" class="a" title="news">news</a></li>
-          <li><a href="/" class="a" title="contact">contact</a></li>
+          <li><a href="contact.jsp" class="a" title="contact">contact</a></li>
         </ul>
       </div>
     </div>
@@ -62,12 +76,18 @@ $(document).ready(function()
   $('#gallery').galleryView({
     panel_animation: 'slide',
     panel_scale: 'fit',
-    pan_images: true,
     show_filmstrip_nav: false,
     filmstrip_position: 'right',
-    show_infobar: false,
+    show_infobar: true,
     infobar_opacity: 0,
+    enable_overlays: true,
+    panel_width: 300,
+    panel_height: 500
    });
+// 	$('#gallery').galleryView({
+// 	    enable_overlays: true,
+// 	    panel_scale: 'fit'
+// 	});
   });
   
 </script>

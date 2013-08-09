@@ -30,7 +30,7 @@
     <div id="container">
       <div id="topnav" class="whitebg">
         <div id="title">CHRISTINA MAMAKOS</div>
-        <!--         <div id="page_title">BIOGRAPHY</div> -->
+        <div id="pagetitle">BIOGRAPHY</div>
       </div>
       <div id="work_content" class="whitebg">
         <div id="bio" class="middletext">
@@ -158,9 +158,9 @@
         <ul class="nav">
           <li><a class="a" href="index.html" title="home">home</a></li>
           <li><a href="projects.jsp" class="a" title="projects">projects</a></li>
-          <li><a href="/" class="active" title="biography">biography</a></li>
-          <li><a href="/" class="a" title="news">news</a></li>
-          <li><a href="/" class="a" title="contact">contact</a></li>
+          <li><a href="" class="active" title="biography">biography</a></li>
+          <li><a href="" class="a" title="news">news</a></li>
+          <li><a href="contact.jsp" class="a" title="contact">contact</a></li>
         </ul>
       </div>
     </div> <!-- end of container -->
