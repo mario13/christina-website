@@ -35,8 +35,8 @@
             </a>
           </div>
           <div class="project">
-            <p>Scape</p>
-            <a href="project.jsp">
+            <p>Mare Nostrum</p>
+            <a href="zoomer.jsp">
             <img alt="2007 Scape" src="images/projects/scape/work/SCAPE 5 100x200cm corten steel.jpg"/>
             </a>
           </div>
