@@ -1,0 +1,16 @@
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-08-11 20:19:51
+hint
+// [failed] jpa setup --database MYSQL --provider HIBERNATE
+// [failed] jpa setup --database MYSQL --provider HIBERNATE
+// [failed] jpa setup --database MYSQL --provider HIBERNATE
+// [failed] jpa setup --database MYSQL --provider HIBERNATE
+jpa setup --database MYSQL --provider HIBERNATE
+// [failed] database introspect --schema mydb
+osgi obr url add --url http://spring-roo-repository.springsource.org/repository.xml
+osgi obr start --bundleSymbolicName org.springframework.roo.wrapping.mysql-connector-java
+osgi obr url remove --url http://spring-roo-repository.springsource.org/repository.xml
+addon install bundle --bundleSymbolicName org.springframework.roo.wrapping.mysql-connector-java
+// [failed] database introspect --schema mydb
+database introspect --schema mydb
+database reverse engineer --schema mydb --package org.leiv.domain
+controller all --package org.leiv.web
